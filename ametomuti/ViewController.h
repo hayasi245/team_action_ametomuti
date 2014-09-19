@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+- (IBAction)button1:(UIButton *)sender;
+- (IBAction)button2:(UIButton *)sender;
+- (IBAction)stopbutton:(UIButton *)sender;
+- (IBAction)restartbutton:(UIButton *)sender;
+- (IBAction)creabutton:(UIBarButtonItem *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *countdownlabel;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datepicker;
+- (IBAction)valuechangedpicker:(UIDatePicker *)sender;
+- (IBAction)okbutton:(UIBarButtonItem *)sender;
 @end
+
+

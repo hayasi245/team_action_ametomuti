@@ -456,6 +456,7 @@
 				07C8030219C2DFB4001A91BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C8030319C2DFB4001A91BB /* Build configuration list for PBXNativeTarget "ametomutiTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				07C8030519C2DFB4001A91BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
