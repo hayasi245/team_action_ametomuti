@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController{
+    objc_objectptr_t
     NSTimer *timer;
     NSInteger hours;
     NSInteger minuts;
